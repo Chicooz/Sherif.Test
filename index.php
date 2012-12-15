@@ -2,9 +2,8 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>etwazf jobs - Finding Jobs For You</title>
-<tag></tag>
-<link rel="stylesheet" type="text/css" href="css/reset.css">
+<title>etwazf jobs - Finding Jobs For you for test</title>
+<link rel=5ab"stylesheet" type="text/css" href="css/reset.css">
 <link rel="stylesheet" type="text/css" href="css/style.css">
 <link rel="stylesheet" type="text/css" href="css/tab.css">
 
