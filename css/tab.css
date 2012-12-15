@@ -1,0 +1,64 @@
+
+#waz-solutions.ui-tabs .ui-tabs-panel { 
+	display: block; 
+	border: 0px solid #00858d; 
+	padding: 1ex 1.4em;
+	background: #fff; 
+	font-family: inherit;
+	font-size: 14px/*{fsDefault}*/; 
+}
+
+/* Component containers
+----------------------------------*/
+#waz-solutions .ui-widget { 
+	
+}
+
+#waz-solutions .ui-widget-content a { 
+	color: transparent/*{fcContent}*/; 
+}
+#waz-solutions .ui-widget-header { 
+	color: #222222/*{fcHeader}*/; 
+	font-weight: bold; 
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 0.8em/*{fsDefault}*/; 
+}
+
+/* Interaction states
+----------------------------------*/
+#waz-solutions .ui-state-default, .ui-widget-content .ui-state-default { 
+	
+	font-weight: normal/*{fwDefault}*/; 
+	color: #555555 /*{fcDefault}*/; 
+	
+}
+#waz-solutions .ui-state-default a, .ui-state-default a:link, .ui-state-default a:visited { 
+	color: #fff/*{fcDefault}*/; 
+	text-decoration: none; 
+		font-size: 16px;
+}
+#waz-solutions .ui-state-hover, .ui-widget-content .ui-state-hover, .ui-state-focus, .ui-widget-content .ui-state-focus { 
+	
+	font-weight: normal/*{fwDefault}*/; 
+	color: #fff /*{fcHover} #212121*/; 
+	font-family: inherit;
+	font-size: 16px/*{fsHover}*/; 
+}
+#waz-solutions .ui-state-hover a, .ui-state-hover a:hover { 
+	color: #fff/*{fcHover}*/; 
+	text-decoration: none; 
+	font-size:16px;
+}
+#waz-solutions .ui-state-active, .ui-widget-content .ui-state-active { 
+	
+	font-weight: normal/*{fwDefault}*/; 
+	color: #212121/*{fcActive}*/; 
+	font-family: inherit;
+	font-size: inherit/*{fsSelected}*/; 
+	font-size:16px;
+}
+#waz-solutions .ui-state-active a, .ui-state-active a:link, .ui-state-active a:visited { 
+	color: #212121/*{fcActive}*/; 
+	text-decoration: none; 
+	font-size:16px;
+}

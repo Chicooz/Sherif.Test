@@ -1,0 +1,217 @@
+/* CSS Document */
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;	
+}
+
+#pagewrap {
+	width:1001px; height:auto; overflow:hidden;
+	margin:0 auto; }
+header { width:991px; height:auto; overflow:hidden; margin:0 auto;  }
+#header-top { width:991px; height:auto; overflow:hidden;}
+#logo { float:left; width:231px; height:auto; overflow:hidden; margin-left:29px; margin-top:35px;}
+#header-right { float:left; width:731px; height:auto;  overflow:hidden;}
+#top-bar { width:991px; height:auto; overflow:hidden; background-color:#04709e;
+border-radius:3px; -webkit-border-radius:3px; -moz-border-radius:3px;
+margin-bottom:55px;
+}
+#topbar-left { width:558px; height:162px; overflow:hidden; margin-left:27px;
+background-image:url(../images/submit-cv.gif); background-repeat:no-repeat;
+position:relative;}
+#submit-cv { width:300px; display: inline-block; position:absolute; top:122px; left:115px; }
+.button a:link { background-color:#ef8700; border:4px solid #046590; 
+	border-radius:5px; -webkit-border-radius:5px; -moz-border-radius:5px;
+	font-family:Arial, Helvetica, sans-serif; font-size:14px; color:#fff; text-transform:uppercase; 
+	text-decoration:none; padding:8px 15px; letter-spacing:1.3px;}
+.button a:visited { background-color:#ef8700; border:4px solid #046590; 
+	border-radius:5px; -webkit-border-radius:5px; -moz-border-radius:5px;
+	font-family:Arial, Helvetica, sans-serif; font-size:14px; color:#fff; text-transform:uppercase; 
+	text-decoration:none; padding:8px 15px; letter-spacing:1.3px;}
+.button a:hover { background-color:#eaae61; border:4px solid #046590; 
+	border-radius:5px; -webkit-border-radius:5px; -moz-border-radius:5px;
+	font-family:Arial, Helvetica, sans-serif; font-size:14px; color:#fff; text-transform:uppercase; 
+	text-decoration:none; padding:8px 15px; letter-spacing:1.3px;}
+.button a:active { background-color:#ef8700; border:4px solid #046590; 
+	border-radius:5px; -webkit-border-radius:5px; -moz-border-radius:5px;
+	font-family:Arial, Helvetica, sans-serif; font-size:14px; color:#fff; text-transform:uppercase; 
+	text-decoration:none; padding:8px 15px; letter-spacing:1.3px;}
+#topbar-right { float: right; width:352px; height:auto; overflow:hidden; position:relative;}
+#topbar-right #findjob { width:auto; height:auto; margin:20px 0 4px 15px;}
+#topbar-right h1 { font-family:Arial, Helvetica, sans-serif; font-weight:bold; font-size:20px; color:#fff;}
+#topbar-right input[type='text'] {width:276px; height:auto;margin:8px;padding:3px;font-size:18px; color:#323232; border:#046590 solid 4px; border-radius:4px; 
+		-moz-border-radius:4px;
+	 -webkit-border-radius:4px;}
+#topbar-right select {width:180px; height:auto;margin:4px 4px 4px 8px;padding:3px;font-size:18px; color:#323232; border:#046590 solid 4px; border-radius:4px; 
+		-moz-border-radius:4px;
+	 -webkit-border-radius:4px; -webkit-backface-visibility:hidden;  }
+#topbar-right #search { position:absolute; right:55px; top:110px;}
+#container { width:991px; height:auto; overflow:hidden; margin:0;  }
+#container-left { float:left;width:495px; height:auto; overflow:hidden; margin:0 12px 0 20px;}
+#container-left #top { width:467px; height:auto; overflow:hidden; background-color:#e4e4e5; padding:10px; }
+#container-left #top #latest { width:auto; height:auto; float:left; margin-left:10px;}
+#container-left #top #job-type { width:168px; height:auto; float:right; margin-right:10px;}
+#container-left #top #job-type select { width:160px; height:auto; float:right; background-color:#61a3c0; color:#fff; padding:2px; border:#046590 solid 2px; border-radius:4px; 
+		-moz-border-radius:4px;
+	 -webkit-border-radius:4px;}
+#container-left #content { width:471px; height:auto; overflow:hidden; margin:12px 0 30px 20px;}
+#container-left #listjob { width:471px; height:auto; overflow:hidden; border-bottom:1px solid #c9c9c9; margin-top:12px;}
+#container-left #listjob # clogo { width:auto; height:auto; float:left; vertical-align:top;}
+#container-left #listjob #job-desc { width:350px; height:auto; overflow:auto; float:right;}
+#container-right { float:right; width:426px; height:auto; overflow:auto; background-color:#e6e9ed; padding:3px 0 20px 0;}
+#container-right  #tab { width:351px; height:auto; overflow:hidden; margin:0 auto;}
+
+
+
+#container-right #holder { width:380px; height:auto; overflow:hidden; margin:0 auto; background-color:#fff; 
+border-radius:4px; -moz-border-radius:4px;	 -webkit-border-radius:4px;
+	-webkit-box-shadow: 0px 8px 10px rgba(50, 50, 50, 0.75);
+-moz-box-shadow:    0px 8px 10px rgba(50, 50, 50, 0.75);
+box-shadow:         0px 8px 10px rgba(50, 50, 50, 0.75);}
+
+
+#container-right #holder #login { width:350px; height:auto; overflow:hidden; margin-left:10px;  }
+#login-social { width:340px; height:auto; overflow:hidden; margin-bottom:35px;}
+#login-social li { float:left; margin:5px;}
+#login-social h2 { font-family:Arial, Helvetica, sans-serif; font-size:18px; color:#ef8700; margin-left:30px;}
+#container-right #holder #register { width:350px; height:auto; overflow:hidden;  margin-left:10px;}
+
+
+#container-right #holder #reg-head { width:auto; height:auto; overflow:auto; margin:9px auto; padding:3px;}
+ #container-right #holder #reg-head  h1 { font-family:Arial, Helvetica, sans-serif; font-size:18px; color:#04709e; letter-spacing:0px;}
+ #container-right #holder #reg-head  h1 span { font-family:Arial, Helvetica, sans-serif; font-size:20px; color:#ef8700;  letter-spacing:0px; }
+ #label {  float:left; width:340px; height:auto; overflow:hidden; font-family:Arial, Helvetica, sans-serif; font-size:14px; color:#333333;padding:7px;}
+#element { float:left; width:340px; height:auto; overflow:hidden; font-family:Arial, Helvetica, sans-serif; font-size:14px; color:#333333; }
+#button-register {  width:300px; height:auto; overflow:hidden; text-align:center; margin:15px 10px; padding-top:20px;}
+
+ #container-right #holder  input[type='text']  { width:300px;  padding: 3px; border:1px solid #417085;}
+ 
+ #container-right #holder  input[type='submit']  {background-color:#ef8700; border:3px solid #046590; 
+	border-radius:5px; -webkit-border-radius:5px; -moz-border-radius:5px;
+	font-family:Arial, Helvetica, sans-serif; font-size:14px; color:#fff; text-transform:uppercase; 
+	text-decoration:none; padding:8px 15px; letter-spacing:1.3px; cursor:pointer;}
+
+ #container-right #holder  input[type='submit']:hover {background-color:#04709e; border:3px solid #ef8700; 
+	border-radius:5px; -webkit-border-radius:5px; -moz-border-radius:5px;
+	font-family:Arial, Helvetica, sans-serif; font-size:14px; color:#fff; text-transform:uppercase; 
+	text-decoration:none; padding:8px 15px; letter-spacing:1.3px; cursor:pointer; }
+	
+ #container-right #holder select {width:310px;  padding: 3px; border:1px solid #417085; } 
+ 
+#job-categories { width:903px; height:auto; overflow:hidden; padding-left:45px; margin-bottom:80px; clear:both;}
+#job-categories #column { width:280px; height:auto; overflow:hidden; margin:20px 10px 10px 10px; float:left; }
+#job-categories #column #head { width:280px; height:auto; overflow:hidden; background-color:#e4e4e5; padding:10px;}
+#job-categories #column ul li a:link{ font-family:Arial, Helvetica, sans-serif; font-size:14px; color:#1c1c1c; line-height:18px; text-decoration:none;line-height:22px; padding-left:13px; }
+#job-categories #column ul li a:visited{ font-family:Arial, Helvetica, sans-serif; font-size:14px; color:#1c1c1c; line-height:18px; text-decoration:none; line-height:22px;
+padding-left:13px; }
+#job-categories #column ul li a:hover{ font-family:Arial, Helvetica, sans-serif; font-size:14px; color:#ef8700; line-height:18px; text-decoration:none; line-height:22px;
+padding-left:13px;}
+#job-categories #column ul li a:active { font-family:Arial, Helvetica, sans-serif; font-size:14px; color:#1c1c1c; line-height:18px; text-decoration:none; line-height:22px;
+padding-left:13px;}
+#job-categories #column ul li a:link  span{ font-family:Arial, Helvetica, sans-serif; font-size:14px; color:#ef8700; line-height:18px; text-decoration:none; line-height:22px;}
+#job-categories #column ul li a:visited span{ font-family:Arial, Helvetica, sans-serif; font-size:14px; color:#ef8700; line-height:18px; text-decoration:none; line-height:22px;}
+#job-categories #column ul li a:hover span{ font-family:Arial, Helvetica, sans-serif; font-size:14px; color:#ef8700; line-height:18px; text-decoration:none; line-height:22px;}
+#job-categories #column ul li a:active span{ font-family:Arial, Helvetica, sans-serif; font-size:14px; color:#ef8700; line-height:18px; text-decoration:none;line-height:22px;}
+
+footer { width:100%; height:auto; overflow:auto; background-color:#5792ac;}
+#footer { width:951px; margin:0 auto; padding:20px;}
+#footer #info { width:250px; height:auto; overflow:hidden; margin:0 20px 20px 30px;}
+ #footer #info h1 { font-family:Arial, Helvetica, sans-serif;color:#fff; font-size:19px; margin-bottom:12px;}
+  #footer #info li { font-family:Arial, Helvetica, sans-serif; font-size:14px; color:#fff; margin-left:10px; padding:3px;}
+    #footer #info li a:link { font-family:Arial, Helvetica, sans-serif; font-size:14px; color:#fff; padding:3px;}
+	    #footer #info li a:visited { font-family:Arial, Helvetica, sans-serif; font-size:14px; color:#fff;  padding:3px;}
+		    #footer #info li a:hover{ font-family:Arial, Helvetica, sans-serif; font-size:14px; color:#fff;  padding:3px; text-decoration:none; background-color:#ef8700;}
+			    #footer #info li a:active { font-family:Arial, Helvetica, sans-serif; font-size:14px; color:#fff; padding:3px;}
+				
+#footer #social { width: 400px; height:auto; overflow:hidden; float:right; margin:25px 40px;}
+#footer #social li{ float: right; border:0; margin:6px;}
+#footer #copyright {  float: right; width:600px; height:auto; overflow:hidden; font-family:Arial, Helvetica, sans-serif; font-size:11px; color:#fff; margin:25px 40px 0 0;}
+/*-------------------Font styles --------------------------------*/
+h1 { font-family:Arial, Helvetica, sans-serif; font-size:20px; color:#04709e; letter-spacing:1.2px; }
+h1 span { font-family:Arial, Helvetica, sans-serif; font-size:20px; color:#ef8700;  letter-spacing:1.2px; }
+
+h4 { font-family:Arial, Helvetica, sans-serif; font-size:15px; text-transform:uppercase; color:#026894; text-decoration:none;}
+h4 { font-family:Arial, Helvetica, sans-serif; font-size:15px; text-transform:uppercase; color:#026894;text-decoration:none;}
+h4 a:link{ font-family:Arial, Helvetica, sans-serif; font-size:15px; text-transform:uppercase; color:#026894;text-decoration:none;}
+h4 a:visited{ font-family:Arial, Helvetica, sans-serif; font-size:15px; text-transform:uppercase; color:#026894;text-decoration:none;}
+h4 a:hover{ font-family:Arial, Helvetica, sans-serif; font-size:15px; text-transform:uppercase; color:#026894; text-decoration:underline;}
+h4 a:active{ font-family:Arial, Helvetica, sans-serif; font-size:15px; text-transform:uppercase; color:#026894;text-decoration:none;}
+
+h5 { font-family:Arial, Helvetica, sans-serif; font-size:15px;  color:#1c1c1c;text-decoration:none; margin:8px 0;}
+#more { float:right; width:auto; height:auto; background-color:#ef8700; padding:8px 25px; margin-right:15px; 
+border-bottom-left-radius:4px; border-bottom-right-radius:4px;
+-webkit-border-bottom-left-radius:4px; -webkit-border-bottom-right-radius:4px;
+-moz-border-radius-bottomleft:4px; -moz-border-radius-bottomright:4px; }
+
+#more a:link { color:#fff;  font-family:Arial, Helvetica, sans-serif; font-size:13px ; text-decoration:none;}
+#more a:visited { color:#fff; font-family:Arial, Helvetica, sans-serif; font-size:13px;text-decoration:none;}
+#more a:hover { color:#121212;  font-family:Arial, Helvetica, sans-serif; font-size:13px;text-decoration:none; }
+#more a:active { color:#fff;  font-family:Arial, Helvetica, sans-serif; font-size:13px;text-decoration:none;}
+/*-------------------Menu CSS --------------------------------*/
+#menu { width:566px; height:auto; overflow:auto; margin:78px 15px  0 140px; 
+			background-color:#fff; line-height:22px; 
+			padding: 10px;
+			 border-top-left-radius:6px; border-top-right-radius:6px;
+ -moz-border-radius-topleft:6px;-moz-border-radius-topright:6px;
+ -webkit-border-top-left-radius:6px; -webkit-border-top-right-radius:6px; }
+#menu ul {list-style:none; margin:0; padding:0;}
+	#menu ul li { float:left; }
+	#menu ul li a:link {  float:left;
+	font-family:Arial, Helvetica, sans-serif; font-size:13px; text-transform:uppercase; color:#404040; text-decoration:none; padding: 0 15px; letter-spacing:1.2px;}
+	#menu ul li a:visited { float:left;
+	font-family:Arial, Helvetica, sans-serif; font-size:13px; text-transform:uppercase; color:#404040; text-decoration:none;  padding: 0 15px; letter-spacing:1.2px;}
+		#menu ul li a:hover { float:left;
+	font-family:Arial, Helvetica, sans-serif; font-size:13px; text-transform:uppercase; color:#fff ; text-decoration:none;  padding: 0 15px; letter-spacing:1.2px;
+	 background-color:#04709e; border-radius:4px; }
+		#menu ul li a:active { float:left;
+	font-family:Arial, Helvetica, sans-serif; font-size:13px; text-transform:uppercase; color:#404040; text-decoration:none;  padding: 0 15px; letter-spacing:1.2px;}
+	
+#job-icons {width: 370px; height:32px; overflow:auto; float:right; }
+#job-icons ul { list-style:none; margin:0; padding:0; }
+#job-icons ul li { display:inline; font-family:Arial, Helvetica, sans-serif; font-size:13px; color:#ee9a00;
+				padding: 10px 0 8px 30px; margin:0 10px 0 10px;
+				}
+#job-icons ul li span { display:inline; font-family:Arial, Helvetica, sans-serif; font-size:13px; color:#000;
+				
+				}
+#job-icons li a:link,a:visited,a:active { color:#ed9907; text-decoration:underline;}
+#job-icons li a:hover { color:#077676; text-decoration:none;}
+#job-icons ul li:nth-child(1) { background-image:url(../images/icon-home.gif); background-repeat:no-repeat; background-position:4px 9px;}
+#job-icons ul li:nth-child(2) {
+	background-image:url(../images/icon-submitted.gif); background-repeat:no-repeat;
+	background-position:6px 9px;	}
+
+
+/*---------- Styles for Page register step 2 ------*/
+#Step2-holder { width:952px; height:auto; overflow:hidden; border:1px solid #b4b4b4;
+ border-radius:5px; -moz-border-radius:5px; -webkit-border-radius:5px;
+  margin:20px auto 45px auto; background-image:url(../images/bg-box.gif); background-repeat:repeat-x;
+}
+#Step2-holder h1 { font-family:Arial, Helvetica, sans-serif; font-size:20px; color:#04709e; margin:15px 0 15px 40px; text-transform:uppercase;}
+#Step2-holder h3 { font-family:Arial, Helvetica, sans-serif; font-size:15px; color:#04709e; margin:15px 0 10px 0px; }
+#Step2-holder p  { font-family:Arial, Helvetica, sans-serif; font-size:13px; color:#1d1d1d; text-align:justify; line-height:18px;}
+#Step2-holder img { margin:0 auto; }
+#Step2-holder h1 span { font-family:Arial, Helvetica, sans-serif; font-size:20px; color:#ef8700; text-transform:uppercase;}
+#Step2-holder #box-holder { width:880px; height:auto; overflow:hidden; margin:0 auto;}
+#Step2-holder #box { width:250px; height:auto; overflow:hidden; float:left; text-align:center; margin: 0 10px 25px 10px; border-right: 1px solid #d3d3d3; 
+padding-right:22px;}
+
+#Step2-holder #whatapp { width:350px; height:auto; overflow:hidden; float:left; text-align:center; margin: 0 10px 25px 10px; border-right: 1px solid #d3d3d3; 
+padding-right:22px;}
+
+#Step2-holder #num-box { width:450px; height:auto; overflow:hidden; float:left; margin-top:50px; margin-left:30px;}
+
+#Step2-holder  #num-box  input[type='text'] {width:200px; height:auto;margin:8px;padding:3px;font-size:18px; color:#323232; border:#046590 solid 4px; border-radius:4px; 
+		-moz-border-radius:4px;
+	 -webkit-border-radius:4px;}
+	 
+#num-box  input[type='submit']  {background-color:#ef8700; border:3px solid #046590; 
+	border-radius:5px; -webkit-border-radius:5px; -moz-border-radius:5px;
+	font-family:Arial, Helvetica, sans-serif; font-size:14px; color:#fff; text-transform:uppercase; 
+	text-decoration:none; padding:8px 15px; letter-spacing:1.3px; cursor:pointer;}
+
+#num-box input[type='submit']:hover {background-color:#04709e; border:3px solid #ef8700; 
+	border-radius:5px; -webkit-border-radius:5px; -moz-border-radius:5px;
+	font-family:Arial, Helvetica, sans-serif; font-size:14px; color:#fff; text-transform:uppercase; 
+	text-decoration:none; padding:8px 15px; letter-spacing:1.3px; cursor:pointer; }
